@@ -1,12 +1,12 @@
 import React, {Component} from 'react'
 
-export default class Dados extends Component{
+export default class DadosAtividade extends Component{
 
     constructor(props){
         super (props);
 
         this.state = {
-            nome: "",
+            atividade: "",
         }
     }
 
@@ -14,9 +14,9 @@ export default class Dados extends Component{
 
     render () {
         return (
-            <div className="dadosnome">
-                <input type="text" onChange={(event)=>{this.setState({nome:event.target.value})}}></input>
-                <h6>Nome</h6>
+            <div className="dadosatividade">
+                <input type="text" onChange={(event)=>{this.setState({atividade:event.target.value})}}></input>
+                <h6>Atividade</h6>
             </div>
         )
     }
