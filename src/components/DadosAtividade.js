@@ -9,13 +9,15 @@ export default class DadosAtividade extends Component {
 
         this.state = {
             atividade: "",
-            nome: "Nome",
-            idade: "Idade",
-            data: "Data",
-            hora: "Hora",
-            curso: "Curso",
-            turma: "Turma",
-            numero: "Numero",
+            nome: "Nome aqui",
+            idade: "Idade aqui",
+            data: "Data aqui",
+            hora: "Hora aqui",
+            curso: "Curso aqui",
+            turma: "Turma aqui",
+            numero: "Numero aqui",
+
+            // Mexer aqui para mudar os dados.
         }
     }
 
