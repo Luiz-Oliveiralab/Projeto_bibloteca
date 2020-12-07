@@ -1,0 +1,19 @@
+.dadosatividade{
+    padding: 20px;
+    width: 40vw;
+    height: 40vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.linha{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 10px;
+}
+
+.atividade{
+    justify-items: center;
+    text-align: center;
+    background-color: teal;
+}

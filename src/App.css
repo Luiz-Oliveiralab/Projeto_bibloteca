@@ -1,0 +1,8 @@
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #eeeeee;
+    height: 100vh;
+}
