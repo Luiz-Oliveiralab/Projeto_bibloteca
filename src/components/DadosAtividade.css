@@ -1,16 +1,16 @@
 .dadosatividade{
     padding: 20px;
-    width: 40vw;
-    height: 40vh;
+    width: 60vw;
+    height: 60vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
-    font-family: 'Open Sans';
 }
 
 .linha{
     justify-content: space-around;
     display: flex;
     margin-top: 10px;
+    height: 13vh;
 }
 
 .atividade{
